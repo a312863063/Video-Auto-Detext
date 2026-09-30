@@ -1,0 +1,15 @@
+# 产物
+outputs/
+*.part.*
+
+# Python
+__pycache__/
+*.pyc
+# 第三方 vendored 代码的缓存（跑起来会生成）
+detext/*/vendor/**/__pycache__/
+
+# IDE / 系统
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
