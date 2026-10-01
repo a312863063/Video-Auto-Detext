@@ -222,7 +222,7 @@ This code is based on [DiffuEraser](https://github.com/lixiaowen-xw/DiffuEraser)
 </p>
 Minimax-H3是现阶段生成内容比较细致的模型，能实现内容的推理+细节的补全。
 
-### 欢迎更多技术合作
+### 欢迎技术交流
 
 AI为需求服务，本人有一定经验，可以多多交流一起做有价值的东西！
 
