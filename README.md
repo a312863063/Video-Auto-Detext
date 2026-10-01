@@ -202,6 +202,18 @@ python run.py -i <输入> --stage mask --device cpu
 
 ---
 
+# License
+
+This repository uses [Propainter](https://github.com/sczhou/ProPainter) as the prior model. Users must comply with [Propainter's license](https://github.com/sczhou/ProPainter/blob/main/LICENSE) when using this code. Or you can use other model to replace it.
+
+This project is licensed under the [Apache License Version 2.0](./LICENSE) except for the third-party components listed below.
+
+# Acknowledgement
+
+This code is based on [DiffuEraser](https://github.com/lixiaowen-xw/DiffuEraser), [BrushNet](https://github.com/TencentARC/BrushNet), [Propainter](https://github.com/sczhou/ProPainter) and [Animatediff](https://github.com/guoyww/AnimateDiff).
+
+---
+
 # 其他内容
 
 ### Minimax-H3版本字幕擦除（未开源）
