@@ -19,7 +19,31 @@
 <img src="docs/video7.gif" alt="演示">
 </p>
 
-#### 评论区反馈需求和问题，我来做进一步优化~
+
+# 优化方法（未开源）
+现实场景下，现有开源模型几乎无法实现准确的擦除。我们通过很多实验优化，把算法效果提升了不少。展示一些效果对比：
+
+### RTX 5070-12GB
+<p align="center">
+<img src="docs/new_sol/badcaseop_1.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_2.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_3.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_4.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_5.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_6.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_7.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_8.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_9.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_10.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_11.jpg" alt="演示">
+<img src="docs/new_sol/badcaseop_12.jpg" alt="演示">
+</p>
+
+### PRO 6000-96GB
+<p align="center">
+<img src="docs/video7_minimax_h3.jpg" alt="演示">
+</p>
+
 
 ---
 
@@ -213,34 +237,9 @@ This code is based on [DiffuEraser](https://github.com/lixiaowen-xw/DiffuEraser)
 
 ---
 
-# 其他内容（未开源）
-现实场景下，现有开源模型几乎无法实现准确的擦除。我们通过很多实验优化，把算法效果提升了不少。展示一些效果对比：
-
-### 测试环境：RTX 5070-12GB 推理性能：适度
-<p align="center">
-<img src="docs/new_sol/badcaseop_1.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_2.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_3.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_4.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_5.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_6.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_7.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_8.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_9.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_10.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_11.jpg" alt="演示">
-<img src="docs/new_sol/badcaseop_12.jpg" alt="演示">
-</p>
-
-### 测试环境：PRO 6000-96GB 推理性能：拉满
-<p align="center">
-<img src="docs/video7_minimax_h3.jpg" alt="演示">
-</p>
-极慢速度下能实现<b>内容的推理</b>（缺什么字/内容）+<b>细节的补全</b>（用什么颜色/样式/结构）
-
 
 ### 欢迎技术交流
 
-大模型时代下能实现的创新AI应用很多，欢迎交流
+大模型时代下能实现的创新AI应用数不胜数，欢迎交流
 
 QQ：312863063
